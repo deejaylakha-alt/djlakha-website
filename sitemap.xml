@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://www.djlakha.com/</loc>
+    <lastmod>2025-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.djlakha.com/LAKHAlogo.png</image:loc>
+      <image:title>DJ LAKHA — Indian Wedding DJ Texas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.djlakha.com/assets/portfolio_dance_floor.png</image:loc>
+      <image:title>Indian Wedding Dance Floor in Austin Texas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.djlakha.com/assets/portfolio_couple_moment.png</image:loc>
+      <image:title>Luxury Indian Wedding Couple Moment at Dallas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.djlakha.com/assets/portfolio_dj_lights.png</image:loc>
+      <image:title>Professional DJ Lighting Setup for Houston Indian Wedding</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.djlakha.com/media.html</loc>
+    <lastmod>2025-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.djlakha.com/testimonials.html</loc>
+    <lastmod>2025-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.djlakha.com/book.html</loc>
+    <lastmod>2025-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

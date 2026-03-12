@@ -1,0 +1,10 @@
+# robots.txt for djlakha.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.djlakha.com/sitemap.xml
+
+# Block non-essential files
+Disallow: /LAKHAlogo.png

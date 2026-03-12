@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Development tools & internal projects
+luxe-crm/
+seo-agents/
+.gemini/
+
+# Archives
+*.zip
+
+# Raw images (keep optimized versions only)
+*.heic
+
+# Strategy docs (internal only)
+SEO_STRATEGY.md
+TECHNICAL_SPEC_VERCEL.md

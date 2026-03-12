@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book DJ LAKHA | Indian Wedding DJ Austin, Dallas, Houston</title>
+    <meta name="description"
+        content="Book DJ Lakha for your Indian wedding in Austin, Dallas or Houston. Inquire now for pricing and custom Bollywood, Bhangra & fusion DJ packages.">
+    <meta name="keywords"
+        content="book Indian wedding DJ Texas, hire Indian wedding DJ Austin, Indian wedding DJ pricing, DJ Lakha contact, Bollywood DJ booking">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.djlakha.com/book.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Book DJ LAKHA — Indian Wedding DJ in Texas">
+    <meta property="og:description"
+        content="Inquire about availability and custom packages for your Indian wedding. Serving Austin, Dallas, Houston & worldwide.">
+    <meta property="og:url" content="https://www.djlakha.com/book.html">
+    <meta property="og:image" content="https://www.djlakha.com/LAKHAlogo.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Book DJ LAKHA | Indian Wedding DJ in Texas">
+    <meta name="twitter:description" content="Inquire about availability and custom packages for your Indian wedding.">
+    <meta name="twitter:image" content="https://www.djlakha.com/LAKHAlogo.png">
+
+    <!-- Fonts (Inter via Google) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* ── Custom Form Styles for Light Section ── */
+        .booking-content {
+            padding: 6rem 0;
+            background: var(--black-2);
+            color: var(--white);
+        }
+
+        .booking-grid {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 5rem;
+            align-items: start;
+        }
+
+        .booking-info-block {
+            position: sticky;
+            top: 120px;
+        }
+
+        .info-item {
+            margin-bottom: 2.5rem;
+        }
+
+        .info-item h4 {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            color: var(--gold-dark);
+            margin-bottom: 0.6rem;
+        }
+
+        .info-item p {
+            font-size: 0.95rem;
+            color: var(--text-muted-light);
+            line-height: 1.6;
+        }
+
+        .luxury-form {
+            background: var(--black-2);
+            padding: 3.5rem;
+            border: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+        }
+
+        .form-header {
+            margin-bottom: 3rem;
+        }
+
+        .form-title {
+            font-size: clamp(1.8rem, 3vw, 2.4rem);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            color: var(--text-on-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .form-sub {
+            font-size: 0.9rem;
+            color: var(--text-muted-light);
+            letter-spacing: 0.05em;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.68rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.18em;
+            color: var(--gold-dark);
+            margin-bottom: 0.6rem;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 1rem 1.2rem;
+            background: var(--black);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: var(--white);
+            font-family: var(--font);
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            border-color: var(--gold);
+            outline: none;
+            background: var(--black-2);
+        }
+
+        ::placeholder {
+            color: rgba(255,255,255,0.3);
+            font-weight: 400;
+        }
+
+        .submit-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 1.2rem;
+            background: var(--white);
+            color: var(--black);
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.16em;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            margin-top: 1rem;
+        }
+
+        .submit-btn:hover {
+            background: var(--gold);
+            color: var(--black);
+        }
+
+        @media (max-width: 968px) {
+            .booking-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            .booking-info-block {
+                position: static;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 2rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .booking-info-block {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+            .luxury-form {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ══ NAVIGATION ══ -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" aria-label="DJ LAKHA Home">
+                <img src="LAKHAlogo.png" alt="DJ LAKHA — Indian Wedding DJ Texas" class="logo-img" id="navLogoImg">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html#about">About</a>
+                <a href="media.html">Media</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="services.html">Services</a>
+                <a href="book.html" class="btn-book">Book Now</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav-overlay" id="mobileNav">
+        <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close menu">
+            <i data-lucide="x"></i>
+        </button>
+        <a href="index.html#about" class="mobile-nav-link">About</a>
+        <a href="media.html" class="mobile-nav-link">Media</a>
+        <a href="testimonials.html" class="mobile-nav-link">Testimonials</a>
+        <a href="services.html" class="mobile-nav-link">Services</a>
+        <a href="book.html" class="mobile-nav-link" style="color: var(--gold);">Book Now</a>
+    </div>
+
+    <!-- ══ HERO ══ -->
+    <header class="page-hero">
+        <div class="page-hero-bg">
+            <img src="IMG_0107.jpeg" alt="" class="page-hero-bg-img" aria-hidden="true" style="opacity: 0.4;">
+        </div>
+        <div class="page-hero-overlay" aria-hidden="true"></div>
+        <div class="page-hero-content">
+            <p class="page-hero-eyebrow">Booking</p>
+            <h1 class="page-hero-title">Start Your<br>Inquiry</h1>
+            <p class="page-hero-sub">Dates for 2025 &amp; 2026 are filling up quickly.</p>
+        </div>
+    </header>
+
+    <!-- ══ BOOKING SECTION ══ -->
+    <main class="booking-content" id="lightSection">
+        <div class="container booking-grid">
+            
+            <!-- Info Column -->
+            <div class="booking-info-block reveal-up">
+                <div class="info-item">
+                    <h4>Direct Connection</h4>
+                    <p>No sales teams. DJ Lakha personally reviews every inquiry and builds custom quotes tailored to your exact vision.</p>
+                </div>
+                <div class="info-item">
+                    <h4>Quick Response</h4>
+                    <p>Expect a response within 24 hours outlining our availability and next steps to set up a brief consultation call.</p>
+                </div>
+                <div class="info-item">
+                    <h4>Travel Ready</h4>
+                    <p>While based in Central Texas, we regularly travel across the US and internationally for our couples. Destination weddings welcome.</p>
+                </div>
+            </div>
+
+            <!-- Form Column -->
+            <div class="form-wrapper reveal-up delay-1">
+                <div class="luxury-form">
+                    <div class="form-header">
+                        <h2 class="form-title">Event Details</h2>
+                        <p class="form-sub">Tell us a bit about your celebration so we can check availability.</p>
+                    </div>
+
+                    <form id="inquiryForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Your Name</label>
+                                <input type="text" name="name" placeholder="First & Last Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" name="email" placeholder="you@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" name="phone" placeholder="(555) 555-5555">
+                            </div>
+                            <div class="form-group">
+                                <label>Event Date</label>
+                                <input type="date" name="date" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Venue / Location</label>
+                            <input type="text" name="venue" placeholder="e.g. The Driskill, Austin TX">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Event Type &amp; Details</label>
+                            <textarea name="message" rows="4" placeholder="Tell us about the vibe, estimated guest count, and any specific services you are interested in..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn" id="submitBtn">Send Inquiry</button>
+                        <p id="formStatus" style="color: var(--text-muted-light); font-size: 0.75rem; margin-top: 1rem; text-align: center; text-transform: uppercase; letter-spacing: 0.05em;"></p>
+                    </form>
+
+                    <!-- Form Handling Script -->
+                    <script>
+                        document.getElementById('inquiryForm').addEventListener('submit', async (e) => {
+                            e.preventDefault();
+                            const btn = document.getElementById('submitBtn');
+                            const status = document.getElementById('formStatus');
+
+                            btn.innerText = 'Sending...';
+                            btn.disabled = true;
+
+                            const formData = new FormData(e.target);
+                            const data = Object.fromEntries(formData);
+                            data.source = 'Website Inquiry';
+
+                            try {
+                                // Send to Local CRM
+                                const response = await fetch('http://localhost:3000/api/inquiry', {
+                                    method: 'POST',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify(data)
+                                });
+
+                                if (response.ok) {
+                                    document.getElementById('inquiryForm').innerHTML = '<div style="padding:4rem 0;text-align:center;"><h3 style="font-size:2rem;font-weight:800;text-transform:uppercase;color:var(--text-on-light);margin-bottom:1rem;">Received.</h3><p style="color:var(--text-muted-light);line-height:1.6;">Thank you for your inquiry. DJ Lakha will review your details and be in touch within 24 hours.</p></div>';
+                                } else {
+                                    throw new Error('CRM connection failed');
+                                }
+                            } catch (err) {
+                                console.error(err);
+                                status.innerText = 'Unable to connect to CRM. Opening your email client...';
+
+                                // Fallback: Mailto
+                                const subject = `New Inquiry: ${data.name} - ${data.date}`;
+                                const body = `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nDate: ${data.date}\nVenue: ${data.venue}\nMessage: ${data.message}`;
+                                window.location.href = `mailto:info@djlakha.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+                                setTimeout(() => {
+                                    btn.innerText = 'Sent via Email';
+                                }, 1000);
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ══ FOOTER ══ -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-logo">
+                <img src="LAKHAlogo.png" alt="DJ LAKHA Logo">
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="index.html#about">About</a>
+                <a href="media.html">Media</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="services.html">Services</a>
+                <a href="book.html">Book</a>
+            </nav>
+            <div class="social-links">
+                <a href="https://www.instagram.com/deejaylakha/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <i data-lucide="instagram"></i>
+                </a>
+                <a href="https://soundcloud.com/dj-lakha" target="_blank" rel="noopener" aria-label="SoundCloud">
+                    <i data-lucide="music"></i>
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <i data-lucide="youtube"></i>
+                </a>
+            </div>
+            <p class="footer-copy">© 2025 DJ LAKHA. All Rights Reserved.</p>
+            <p class="footer-seo">
+                Indian Wedding DJ in Austin · Dallas · Houston · San Antonio · Fort Worth · Texas &amp; Worldwide
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
