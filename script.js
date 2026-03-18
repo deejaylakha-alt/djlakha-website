@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Element refs ─────────────────────
   const navbar        = document.getElementById('navbar');
-  const lightSection  = document.getElementById('lightSection');
   const mobileMenuBtn = document.getElementById('mobileMenuBtn');
   const mobileNav     = document.getElementById('mobileNav');
   const mobileCloseBtn= document.getElementById('mobileCloseBtn');
@@ -17,28 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Navbar scroll behavior ────────────
   function updateNav() {
     if (!navbar) return;
-    const scrollY = window.scrollY;
-
-    // Hero height threshold
-    const heroEl = document.getElementById('hero');
-    const heroBottom = heroEl ? heroEl.offsetHeight : 600;
-
-    if (scrollY < 40) {
-      // At very top — fully transparent
-      navbar.classList.remove('scrolled', 'light-mode');
-    } else if (scrollY >= heroBottom - 80 && lightSection) {
-      // Over the white section
-      const lightTop = lightSection.getBoundingClientRect().top;
-      if (lightTop <= 80) {
-        navbar.classList.add('scrolled', 'light-mode');
-      } else {
-        navbar.classList.add('scrolled');
-        navbar.classList.remove('light-mode');
-      }
+    if (window.scrollY < 40) {
+      navbar.classList.remove('scrolled');
     } else {
-      // Scrolled but still over hero
       navbar.classList.add('scrolled');
-      navbar.classList.remove('light-mode');
     }
   }
 
