@@ -1,18 +1,21 @@
+# Raw video files
+videos/
+VIDEOs/
+
+# FFmpeg binary
+ffmpeg
+
+# Processing script
+process_videos.py
+concat.txt
+processed_clips/
+
 # OS files
 .DS_Store
 Thumbs.db
 
-# Development tools & internal projects
-luxe-crm/
-seo-agents/
-.gemini/
+# Node modules
+node_modules/
 
-# Archives
-*.zip
-
-# Raw images (keep optimized versions only)
-*.heic
-
-# Strategy docs (internal only)
-SEO_STRATEGY.md
-TECHNICAL_SPEC_VERCEL.md
+# Misc
+*.log
