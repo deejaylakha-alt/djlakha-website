@@ -6,6 +6,10 @@
 ═══════════════════════════════════════════ */
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize all icons (hamburger menu, social links, etc)
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
 
   // ── Element refs ─────────────────────
   const navbar        = document.getElementById('navbar');
