@@ -1,0 +1,20 @@
+{
+  "extractedAt": "2026-02-17T22:56:02.393Z",
+  "version": 2,
+  "counts": {
+    "projects": 0,
+    "leads": 0,
+    "contacts": 30,
+    "templates": 268,
+    "automations": 31,
+    "unreadMessages": 0,
+    "apiResponses": 151
+  },
+  "businessOverview": {
+    "bookings2026": "N/A",
+    "pendingAutomations": "0",
+    "tasks": "0",
+    "newLeads": "0",
+    "unreadMessages": "0"
+  }
+}

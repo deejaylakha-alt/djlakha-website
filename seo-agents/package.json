@@ -1,0 +1,23 @@
+{
+  "name": "dj-lakha-seo-agents",
+  "version": "1.0.0",
+  "description": "Automated SEO toolkit for DJ LAKHA website",
+  "type": "module",
+  "scripts": {
+    "audit": "node agents/site-auditor.js",
+    "optimize-images": "node agents/image-optimizer.js",
+    "track-rankings": "node agents/rank-tracker.js",
+    "monitor-competitors": "node agents/competitor-monitor.js",
+    "generate-blog": "node agents/blog-generator.js",
+    "review-outreach": "node agents/review-outreach.js",
+    "build-citations": "node agents/citation-builder.js",
+    "run-all": "node run-all.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "node-html-parser": "^6.1.12",
+    "puppeteer": "^22.0.0"
+  }
+}

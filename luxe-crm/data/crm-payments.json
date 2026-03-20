@@ -1,0 +1,550 @@
+{
+  "paid": [
+    {
+      "_id": "686435258ec475000793d1b4",
+      "company_id": "626721574f79200628023f35",
+      "owner_id": "626721574f79200628023e41",
+      "title": "February 19 & 20 - 2026 Baraat, Wedding, & Reception Smart File",
+      "couple_card_id": "68643412c2a5a5001e195e24",
+      "payment_id": "686435258ec475000793d1b4",
+      "event_id": "68643412c2a5a5001e195e21",
+      "event_name": "February 19 & 20 - 2026 Baraat, Wedding, & Reception",
+      "sent_on": "2025-07-01T13:21:08.942-06:00",
+      "payment_date_is_tbd": false,
+      "payment_charge_description": "Cash",
+      "payment_method_id": "698dedc07e65ff00395e2d3f",
+      "payment_interactions_complete": true,
+      "payment_payer_id": "626721574f79200628023e41",
+      "payment_payer_method_type": "manual",
+      "payment_amount": 3202.65,
+      "payment_due_date": "2026-02-12",
+      "payment_charge_date": "2026-02-12T00:00:00.000Z",
+      "payment_count_description": "2 of 2 payments",
+      "payment_is_paid": true,
+      "payment_is_pending": false,
+      "payment_invoice": "000197-001",
+      "payment_hb_fee": 0,
+      "payment_tax": 0,
+      "payment_charge_id": "Manual",
+      "payment_last_reminder_timestamp": "2026-02-12T14:07:29.335Z",
+      "payment_transferred_to_vendor": true,
+      "payment_tip_paid": 0,
+      "paid_in_person": false,
+      "late_fee_amount_cents": 0,
+      "is_recurring_payment": false,
+      "recurring_payment_active": null,
+      "payment_method_payer_name": "Lakha Singh",
+      "payment_method_type_name": "manual",
+      "payment_method_name": "Cash",
+      "auto_pay_status": null,
+      "is_client_payment_plan": null,
+      "payment_statuses": [
+        {
+          "status": "charged",
+          "date": "2026-02-12T00:00:00.000Z",
+          "status_category": "in_progress"
+        },
+        {
+          "status": "processed",
+          "status_category": "in_progress",
+          "date": null
+        },
+        {
+          "status": "deposited",
+          "date": null,
+          "status_category": "credited",
+          "total_refunded_amount": 0
+        }
+      ],
+      "is_flow_payment": true,
+      "flow_id": "686434524169b000190231fb",
+      "is_public_flow_payment": false,
+      "is_file_owned_by_me": true,
+      "is_manual": true,
+      "is_milestone": false,
+      "file_owner_id": "626721574f79200628023e41",
+      "file_owner_email": "info@djlakha.com",
+      "file_owner_full_name": "Lakha Singh",
+      "payment_late_fee": 0,
+      "payment_status_tracking": [
+        {
+          "status": "charged",
+          "date": "2026-02-12T00:00:00.000Z",
+          "status_category": "in_progress"
+        },
+        {
+          "status": "processed",
+          "status_category": "in_progress",
+          "date": null
+        },
+        {
+          "status": "deposited",
+          "date": null,
+          "status_category": "credited",
+          "total_refunded_amount": 0
+        }
+      ],
+      "eligible_for_instant_payout": true,
+      "allow_charged_instant_payout": false,
+      "allow_instant_payout": false,
+      "use_instant_payout": false
+    },
+    {
+      "_id": "69838a2e34de2400073c02b9",
+      "company_id": "626721574f79200628023f35",
+      "owner_id": "626721574f79200628023e41",
+      "title": "ASPEN, CO WEDDING Smart File",
+      "couple_card_id": "697e8e3cef537a002a5b706b",
+      "payment_id": "69838a2e34de2400073c02b9",
+      "event_id": "697e8e3cef537a002a5b7064",
+      "event_name": "ASPEN, CO WEDDING",
+      "sent_on": "2026-02-04T12:04:30.326-06:00",
+      "payment_date_is_tbd": false,
+      "payment_charge_description": "Cash",
+      "payment_method_id": "698f7e58315a58002324f52e",
+      "payment_interactions_complete": true,
+      "payment_payer_id": "626721574f79200628023e41",
+      "payment_payer_method_type": "manual",
+      "payment_amount": 5997,
+      "payment_due_date": "2026-02-04",
+      "payment_charge_date": "2026-02-13T00:00:00.000Z",
+      "payment_count_description": "1 of 2 payments / Retainer",
+      "payment_is_paid": true,
+      "payment_is_pending": false,
+      "payment_invoice": "000260-002",
+      "payment_hb_fee": 0,
+      "payment_tax": 0,
+      "payment_charge_id": "Manual",
+      "payment_transferred_to_vendor": true,
+      "payment_tip_paid": 0,
+      "paid_in_person": false,
+      "late_fee_amount_cents": 0,
+      "is_recurring_payment": false,
+      "recurring_payment_active": null,
+      "payment_method_payer_name": "Lakha Singh",
+      "payment_method_type_name": "manual",
+      "payment_method_name": "Cash",
+      "auto_pay_status": null,
+      "is_client_payment_plan": null,
+      "payment_statuses": [
+        {
+          "status": "charged",
+          "date": "2026-02-13T00:00:00.000Z",
+          "status_category": "in_progress"
+        },
+        {
+          "status": "processed",
+          "status_category": "in_progress",
+          "date": null
+        },
+        {
+          "status": "deposited",
+          "date": null,
+          "status_category": "credited",
+          "total_refunded_amount": 0
+        }
+      ],
+      "is_flow_payment": true,
+      "flow_id": "6982358c88a0fd0038557c99",
+      "is_public_flow_payment": false,
+      "is_file_owned_by_me": true,
+      "is_manual": true,
+      "is_milestone": false,
+      "file_owner_id": "626721574f79200628023e41",
+      "file_owner_email": "info@djlakha.com",
+      "file_owner_full_name": "Lakha Singh",
+      "payment_late_fee": 0,
+      "payment_status_tracking": [
+        {
+          "status": "charged",
+          "date": "2026-02-13T00:00:00.000Z",
+          "status_category": "in_progress"
+        },
+        {
+          "status": "processed",
+          "status_category": "in_progress",
+          "date": null
+        },
+        {
+          "status": "deposited",
+          "date": null,
+          "status_category": "credited",
+          "total_refunded_amount": 0
+        }
+      ],
+      "eligible_for_instant_payout": true,
+      "allow_charged_instant_payout": false,
+      "allow_instant_payout": false,
+      "use_instant_payout": false
+    }
+  ],
+  "pending": [
+    {
+      "_id": "6980ae2b695ed100079d7064",
+      "company_id": "626721574f79200628023f35",
+      "owner_id": "626721574f79200628023e41",
+      "title": "Neveen Ali & Zaman Virani's Project Smart File",
+      "couple_card_id": "695c00b0329971002db3bd25",
+      "payment_id": "6980ae2b695ed100079d7064",
+      "event_id": "695c00b0329971002db3bd22",
+      "event_name": "Neveen Ali & Zaman Virani's Project",
+      "sent_on": "2026-02-02T08:01:15.669-06:00",
+      "payment_date_is_tbd": false,
+      "payment_charge_description": "CHASE COLLEGE",
+      "payment_method_id": "698d44afa7b0b70030347805",
+      "payment_interactions_complete": false,
+      "payment_payer_id": "695c00b0329971002db3bd2c",
+      "payment_payer_method_type": "bank_account",
+      "payment_amount": 3997.5,
+      "payment_due_date": "2026-02-02",
+      "payment_charge_date": "2026-02-11T21:11:20.597-06:00",
+      "payment_count_description": "1 of 2 payments / Retainer",
+      "payment_is_paid": false,
+      "payment_is_pending": true,
+      "payment_invoice": "000259-002",
+      "payment_hb_fee": 59.96,
+      "payment_tax": 0,
+      "payment_charge_id": "py_2SzqJH05bqqDViGX0tsEs2H0",
+      "payment_hb_transfer_to_vendor": 3937.54,
+      "payment_transferred_to_vendor": false,
+      "payment_tip_paid": 0,
+      "paid_in_person": false,
+      "late_fee_amount_cents": 0,
+      "payment_is_autopaid": false,
+      "is_recurring_payment": false,
+      "recurring_payment_active": null,
+      "payment_method_payer_name": "Neveen Ali & Zaman Virani",
+      "payment_method_last4": "8685",
+      "payment_method_type_name": "checking",
+      "payment_method_name": "CHASE COLLEGE",
+      "auto_pay_status": null,
+      "is_client_payment_plan": null,
+      "payment_statuses": [
+        {
+          "status": "charged",
+          "date": "2026-02-12T03:11:20.597Z",
+          "status_category": "in_progress"
+        },
+        {
+          "status": "pending_confirmation",
+          "date": "2026-02-12T03:11:20.597Z",
+          "estimated_payout_date": "2026-02-24T17:00:00.000Z",
+          "status_category": "in_progress"
+        }
+      ],
+      "is_flow_payment": true,
+      "flow_id": "697ffcbd1a92490027524fe9",
+      "is_public_flow_payment": false,
+      "is_file_owned_by_me": true,
+      "is_manual": false,
+      "is_milestone": false,
+      "file_owner_id": "626721574f79200628023e41",
+      "file_owner_email": "info@djlakha.com",
+      "file_owner_full_name": "Lakha Singh",
+      "estimated_payout_date": "2026-02-24T09:00:00.000-08:00",
+      "payment_late_fee": 0,
+      "payment_status_tracking": [
+        {
+          "status": "charged",
+          "date": "2026-02-12T03:11:20.597Z",
+          "status_category": "in_progress"
+        },
+        {
+          "status": "pending_confirmation",
+          "date": "2026-02-12T03:11:20.597Z",
+          "estimated_payout_date": "2026-02-24T17:00:00.000Z",
+          "status_category": "in_progress"
+        }
+      ],
+      "eligible_for_instant_payout": false,
+      "allow_instant_payout": false,
+      "use_instant_payout": false
+    }
+  ],
+  "late": [
+    {
+      "_id": "6965ba667cb34f0007448166",
+      "company_id": "626721574f79200628023f35",
+      "owner_id": "626721574f79200628023e41",
+      "title": "Alishan Premani and Sabrina Hirani's Project Smart File",
+      "couple_card_id": "6961e01af751d80021fc4c55",
+      "payment_id": "6965ba667cb34f0007448166",
+      "event_id": "6961e01af751d80021fc4c52",
+      "event_name": "Alishan Premani and Sabrina Hirani's Project",
+      "sent_on": "2026-01-12T21:22:13.970-06:00",
+      "payment_date_is_tbd": false,
+      "payment_interactions_complete": false,
+      "payment_amount": 3498.66,
+      "payment_due_date": "2026-02-14",
+      "payment_count_description": "2 of 2 payments",
+      "payment_is_paid": false,
+      "payment_is_pending": false,
+      "payment_invoice": "000256-001",
+      "payment_tax": 0,
+      "payment_last_reminder_timestamp": "2026-02-16T14:05:53.161Z",
+      "payment_transferred_to_vendor": false,
+      "paid_in_person": false,
+      "is_recurring_payment": false,
+      "recurring_payment_active": null,
+      "auto_pay_status": null,
+      "is_client_payment_plan": null,
+      "payment_statuses": [
+        {
+          "status": "overdue",
+          "status_category": "action_needed",
+          "date": "2026-02-14T00:00:00.000Z",
+          "last_reminder": "2026-02-16T14:05:53.161Z"
+        }
+      ],
+      "is_flow_payment": true,
+      "flow_id": "6965b95d1803560021ad3a0b",
+      "is_public_flow_payment": false,
+      "is_file_owned_by_me": true,
+      "is_manual": false,
+      "is_milestone": false,
+      "file_owner_id": "626721574f79200628023e41",
+      "file_owner_email": "info@djlakha.com",
+      "file_owner_full_name": "Lakha Singh",
+      "payment_late_fee": 0,
+      "payment_status_tracking": [
+        {
+          "status": "overdue",
+          "status_category": "action_needed",
+          "date": "2026-02-14T00:00:00.000Z",
+          "last_reminder": "2026-02-16T14:05:53.161Z"
+        }
+      ],
+      "eligible_for_instant_payout": true,
+      "allow_instant_payout": true,
+      "use_instant_payout": false,
+      "instant_payout_theoretical_fee": 34.99
+    },
+    {
+      "_id": "684f33150d41060007e3c765",
+      "company_id": "626721574f79200628023f35",
+      "owner_id": "626721574f79200628023e41",
+      "title": "LA Riverside Wedding Smart File",
+      "couple_card_id": "684b19224fff9b0026bb32a6",
+      "payment_id": "684f33150d41060007e3c765",
+      "event_id": "684b19224fff9b0026bb32a3",
+      "event_name": "LA Riverside Wedding",
+      "sent_on": "2025-06-15T14:54:44.991-06:00",
+      "payment_date_is_tbd": false,
+      "payment_interactions_complete": false,
+      "payment_amount": 0,
+      "payment_due_date": "2025-06-15",
+      "payment_count_description": "1 of 2 payments / Retainer",
+      "payment_is_paid": false,
+      "payment_is_pending": false,
+      "payment_invoice": "000194-002",
+      "payment_tax": 0,
+      "payment_transferred_to_vendor": false,
+      "paid_in_person": false,
+      "is_recurring_payment": false,
+      "recurring_payment_active": null,
+      "auto_pay_status": null,
+      "is_client_payment_plan": null,
+      "payment_statuses": [
+        {
+          "status": "overdue",
+          "status_category": "idle",
+          "date": "2025-06-15T00:00:00.000Z",
+          "last_reminder": null
+        }
+      ],
+      "is_flow_payment": true,
+      "flow_id": "684f32a8daf5370025f98a38",
+      "is_public_flow_payment": false,
+      "is_file_owned_by_me": true,
+      "is_manual": false,
+      "is_milestone": false,
+      "file_owner_id": "626721574f79200628023e41",
+      "file_owner_email": "info@djlakha.com",
+      "file_owner_full_name": "Lakha Singh",
+      "payment_late_fee": 0,
+      "payment_status_tracking": [
+        {
+          "status": "overdue",
+          "status_category": "idle",
+          "date": "2025-06-15T00:00:00.000Z",
+          "last_reminder": null
+        }
+      ],
+      "eligible_for_instant_payout": false,
+      "allow_instant_payout": false,
+      "use_instant_payout": false
+    },
+    {
+      "_id": "6965ba667cb34f0007448166",
+      "company_id": "626721574f79200628023f35",
+      "owner_id": "626721574f79200628023e41",
+      "title": "Alishan Premani and Sabrina Hirani's Project Smart File",
+      "couple_card_id": "6961e01af751d80021fc4c55",
+      "payment_id": "6965ba667cb34f0007448166",
+      "event_id": "6961e01af751d80021fc4c52",
+      "event_name": "Alishan Premani and Sabrina Hirani's Project",
+      "sent_on": "2026-01-12T21:22:13.970-06:00",
+      "payment_date_is_tbd": false,
+      "payment_interactions_complete": false,
+      "payment_amount": 3498.66,
+      "payment_due_date": "2026-02-14",
+      "payment_count_description": "2 of 2 payments",
+      "payment_is_paid": false,
+      "payment_is_pending": false,
+      "payment_invoice": "000256-001",
+      "payment_tax": 0,
+      "payment_last_reminder_timestamp": "2026-02-16T14:05:53.161Z",
+      "payment_transferred_to_vendor": false,
+      "paid_in_person": false,
+      "is_recurring_payment": false,
+      "recurring_payment_active": null,
+      "auto_pay_status": null,
+      "is_client_payment_plan": null,
+      "payment_statuses": [
+        {
+          "status": "overdue",
+          "status_category": "action_needed",
+          "date": "2026-02-14T00:00:00.000Z",
+          "last_reminder": "2026-02-16T14:05:53.161Z"
+        }
+      ],
+      "is_flow_payment": true,
+      "flow_id": "6965b95d1803560021ad3a0b",
+      "is_public_flow_payment": false,
+      "is_file_owned_by_me": true,
+      "is_manual": false,
+      "is_milestone": false,
+      "file_owner_id": "626721574f79200628023e41",
+      "file_owner_email": "info@djlakha.com",
+      "file_owner_full_name": "Lakha Singh",
+      "payment_late_fee": 0,
+      "payment_status_tracking": [
+        {
+          "status": "overdue",
+          "status_category": "action_needed",
+          "date": "2026-02-14T00:00:00.000Z",
+          "last_reminder": "2026-02-16T14:05:53.161Z"
+        }
+      ],
+      "eligible_for_instant_payout": true,
+      "allow_instant_payout": true,
+      "use_instant_payout": false,
+      "instant_payout_theoretical_fee": 34.99
+    }
+  ],
+  "imminent": [
+    {
+      "_id": "696148fd3a034300080ef5d0",
+      "company_id": "626721574f79200628023f35",
+      "owner_id": "626721574f79200628023e41",
+      "title": "Nisha Singh's Project Smart File",
+      "couple_card_id": "695e721acb92450029426145",
+      "payment_id": "696148fd3a034300080ef5d0",
+      "event_id": "695e721acb92450029426142",
+      "event_name": "Nisha Singh's Project",
+      "sent_on": "2026-01-09T12:29:16.952-06:00",
+      "payment_date_is_tbd": false,
+      "payment_interactions_complete": false,
+      "payment_amount": 1250.1,
+      "payment_due_date": "2026-02-21",
+      "payment_count_description": "2 of 2 payments",
+      "payment_is_paid": false,
+      "payment_is_pending": false,
+      "payment_invoice": "000254-001",
+      "payment_tax": 0,
+      "payment_last_reminder_timestamp": "2026-02-14T14:17:24.825Z",
+      "payment_transferred_to_vendor": false,
+      "paid_in_person": false,
+      "is_recurring_payment": false,
+      "recurring_payment_active": null,
+      "auto_pay_status": null,
+      "is_client_payment_plan": null,
+      "payment_statuses": [
+        {
+          "status": "upcoming",
+          "status_category": "idle",
+          "date": "2026-02-21T00:00:00.000Z",
+          "last_reminder": "2026-02-14T14:17:24.825Z"
+        }
+      ],
+      "is_flow_payment": true,
+      "flow_id": "696148afafb7ac002eba5db2",
+      "is_public_flow_payment": false,
+      "is_file_owned_by_me": true,
+      "is_manual": false,
+      "is_milestone": false,
+      "file_owner_id": "626721574f79200628023e41",
+      "file_owner_email": "info@djlakha.com",
+      "file_owner_full_name": "Lakha Singh",
+      "payment_late_fee": 0,
+      "payment_status_tracking": [
+        {
+          "status": "upcoming",
+          "status_category": "idle",
+          "date": "2026-02-21T00:00:00.000Z",
+          "last_reminder": "2026-02-14T14:17:24.825Z"
+        }
+      ],
+      "eligible_for_instant_payout": true,
+      "allow_instant_payout": true,
+      "use_instant_payout": false,
+      "instant_payout_theoretical_fee": 12.5
+    },
+    {
+      "_id": "6894fa8145fd9d00071e333c",
+      "company_id": "626721574f79200628023f35",
+      "owner_id": "626721574f79200628023e41",
+      "title": "Avani Bellary & Jigar Patel's Project Smart File",
+      "couple_card_id": "68839a5c793ce5002d2fe83b",
+      "payment_id": "6894fa8145fd9d00071e333c",
+      "event_id": "68839a5c793ce5002d2fe838",
+      "event_name": "Avani Bellary & Jigar Patel's Project",
+      "sent_on": "2025-08-07T13:12:01.023-06:00",
+      "payment_date_is_tbd": false,
+      "payment_interactions_complete": false,
+      "payment_amount": 4887.35,
+      "payment_due_date": "2026-02-27",
+      "payment_count_description": "2 of 2 payments",
+      "payment_is_paid": false,
+      "payment_is_pending": false,
+      "payment_invoice": "000208-001",
+      "payment_tax": 0,
+      "payment_transferred_to_vendor": false,
+      "paid_in_person": false,
+      "is_recurring_payment": false,
+      "recurring_payment_active": null,
+      "auto_pay_status": null,
+      "is_client_payment_plan": null,
+      "payment_statuses": [
+        {
+          "status": "upcoming",
+          "status_category": "idle",
+          "date": "2026-02-27T00:00:00.000Z",
+          "last_reminder": null
+        }
+      ],
+      "is_flow_payment": true,
+      "flow_id": "6894f98b1755cf001f3e7ceb",
+      "is_public_flow_payment": false,
+      "is_file_owned_by_me": true,
+      "is_manual": false,
+      "is_milestone": false,
+      "file_owner_id": "626721574f79200628023e41",
+      "file_owner_email": "info@djlakha.com",
+      "file_owner_full_name": "Lakha Singh",
+      "payment_late_fee": 0,
+      "payment_status_tracking": [
+        {
+          "status": "upcoming",
+          "status_category": "idle",
+          "date": "2026-02-27T00:00:00.000Z",
+          "last_reminder": null
+        }
+      ],
+      "eligible_for_instant_payout": true,
+      "allow_instant_payout": true,
+      "use_instant_payout": false,
+      "instant_payout_theoretical_fee": 48.87
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "timestamp": "2026-02-17T22:01:07.569Z",
+      "results": [
+        {
+          "keyword": "Indian Wedding DJ Texas",
+          "position": "Not in top 20",
+          "found": false
+        },
+        {
+          "keyword": "Indian Wedding DJ Austin",
+          "position": "Not in top 20",
+          "found": false
+        },
+        {
+          "keyword": "Indian Wedding DJ Dallas",
+          "position": "Not in top 20",
+          "found": false
+        },
+        {
+          "keyword": "Indian Wedding DJ Houston",
+          "position": "Not in top 20",
+          "found": false
+        },
+        {
+          "keyword": "Bollywood DJ Texas",
+          "position": "Not in top 20",
+          "found": false
+        },
+        {
+          "keyword": "Desi DJ Texas",
+          "position": "Not in top 20",
+          "found": false
+        },
+        {
+          "keyword": "South Asian Wedding DJ Texas",
+          "position": "Not in top 20",
+          "found": false
+        },
+        {
+          "keyword": "Fusion Wedding DJ Austin",
+          "position": "Not in top 20",
+          "found": false
+        }
+      ]
+    }
+  ]
+}

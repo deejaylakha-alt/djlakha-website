@@ -1,0 +1,21 @@
+{
+    "name": "luxe-crm",
+    "version": "2.0.0",
+    "description": "DJ LAKHA Luxe CRM — HoneyBook data extraction, client management, & business command center",
+    "type": "module",
+    "scripts": {
+        "extract": "node honeybook-extractor.js",
+        "mine": "node api-data-miner.js",
+        "process": "node data-processor.js",
+        "dashboard": "node dashboard.js",
+        "emails": "node auto-emailer.js",
+        "finance": "node finance-tracker.js",
+        "center": "node command-center.js",
+        "sync": "node honeybook-extractor.js && node api-data-miner.js && node command-center.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "opn": "^6.0.0",
+        "puppeteer": "^22.0.0"
+    }
+}

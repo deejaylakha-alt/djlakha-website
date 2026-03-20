@@ -1,0 +1,158 @@
+{
+  "Karma DJs": {
+    "pages": {
+      "https://karmadjs.com": {
+        "title": "Leading Houston Desi DJ Company | Karma DJs",
+        "metaDescription": "Karma DJs is the leading Event Management company in Houston, Tx. As a Desi DJ provider, we have services that cover sound, lighting, LED items, and more. Call us today!",
+        "h1": "The Leading Houston Desi DJ Company",
+        "schemaTypes": [],
+        "imageCount": 26,
+        "externalLinks": [
+          "gmpg.org",
+          "karmadjs.com",
+          "instagram.com",
+          "www.youtube.com",
+          "www.facebook.com"
+        ],
+        "hasCanonical": true,
+        "hasOpenGraph": true,
+        "hasTwitterCard": true,
+        "hasFAQSchema": false,
+        "wordCount": 631,
+        "socialProof": [
+          "Claims 5-star reviews",
+          "Claims #1/Leading position",
+          "References WeddingWire",
+          "References The Knot"
+        ]
+      },
+      "https://karmadjs.com/services/": {
+        "title": "Services &#8211; Karma DJ&#039;s",
+        "metaDescription": null,
+        "h1": null,
+        "schemaTypes": [],
+        "imageCount": 20,
+        "externalLinks": [
+          "gmpg.org",
+          "karmadjs.com",
+          "www.facebook.com",
+          "www.youtube.com",
+          "instagram.com"
+        ],
+        "hasCanonical": true,
+        "hasOpenGraph": true,
+        "hasTwitterCard": true,
+        "hasFAQSchema": false,
+        "wordCount": 1053,
+        "socialProof": []
+      },
+      "https://karmadjs.com/testimonials/": {
+        "title": "Testimonials &#8211; Karma DJ&#039;s",
+        "metaDescription": null,
+        "h1": null,
+        "schemaTypes": [],
+        "imageCount": 43,
+        "externalLinks": [
+          "gmpg.org",
+          "karmadjs.com",
+          "www.weddingwire.com",
+          "search.google.com",
+          "www.youtube.com",
+          "www.facebook.com",
+          "instagram.com"
+        ],
+        "hasCanonical": true,
+        "hasOpenGraph": true,
+        "hasTwitterCard": true,
+        "hasFAQSchema": false,
+        "wordCount": 4330,
+        "socialProof": [
+          "Claims #1/Leading position",
+          "References WeddingWire"
+        ]
+      }
+    },
+    "lastChecked": "2026-02-17T22:00:15.085Z"
+  },
+  "DJ Tej": {
+    "pages": {
+      "https://thedjtej.com": {
+        "title": "Indian Wedding DJ - Dj Tej",
+        "metaDescription": "With over 15 years of experience as Indian Wedding Dj and Indian Music, I bring the hottest and latest Music (incl. Bollywood, Punjabi, English, Telugu etc.) to your special event. Keeping in mind that every event is special and unique, all musical details are planned according to your celebration.\n\nI meet every client for a face-to-face briefing, visiting the venue before putting together a detailed proposal. Whatever be your reason for bringing people together, I strive to ensure that your event is truly memorable. \n\nLet me, together with you, plan your upcoming event with all possible options that will fit your requirements &amp; suit your budget, helping you make the event an unforgettable one.",
+        "h1": "Photo Gallery",
+        "schemaTypes": [],
+        "imageCount": 3,
+        "externalLinks": [
+          "www.facebook.com",
+          "www.instagram.com",
+          "policies.google.com",
+          "www.godaddy.com"
+        ],
+        "hasCanonical": false,
+        "hasOpenGraph": true,
+        "hasTwitterCard": true,
+        "hasFAQSchema": false,
+        "wordCount": 140,
+        "socialProof": [
+          "Claims #1/Leading position"
+        ]
+      },
+      "https://thedjtej.com/services/": {
+        "title": "Services",
+        "metaDescription": null,
+        "h1": "Services",
+        "schemaTypes": [],
+        "imageCount": 11,
+        "externalLinks": [
+          "www.facebook.com",
+          "www.instagram.com",
+          "www.godaddy.com"
+        ],
+        "hasCanonical": false,
+        "hasOpenGraph": true,
+        "hasTwitterCard": true,
+        "hasFAQSchema": false,
+        "wordCount": 491,
+        "socialProof": [
+          "Claims #1/Leading position"
+        ]
+      }
+    },
+    "lastChecked": "2026-02-17T22:00:15.842Z"
+  },
+  "Desi Junction DJs": {
+    "pages": {
+      "https://desijunctiondjs.com": {
+        "title": "Indian Wedding DJs | Desi Junction DJs | Dallas | Austin | Houston",
+        "metaDescription": "Desi Junction DJ",
+        "h1": null,
+        "schemaTypes": [
+          "WebSite",
+          "Organization"
+        ],
+        "imageCount": 53,
+        "externalLinks": [
+          "static.wixstatic.com",
+          "static.parastorage.com",
+          "www.desijunctiondjs.com",
+          "www.instagram.com",
+          "www.facebook.com",
+          "soundcloud.com",
+          "vimeo.com",
+          "www.tiktok.com",
+          "www.youtube.com",
+          "siteassets.parastorage.com"
+        ],
+        "hasCanonical": true,
+        "hasOpenGraph": true,
+        "hasTwitterCard": true,
+        "hasFAQSchema": false,
+        "wordCount": 758,
+        "socialProof": [
+          "Claims #1/Leading position"
+        ]
+      }
+    },
+    "lastChecked": "2026-02-17T22:00:16.212Z"
+  }
+}

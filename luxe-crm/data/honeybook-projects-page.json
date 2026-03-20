@@ -1,0 +1,159 @@
+{
+  "section": "Projects",
+  "url": "https://app.honeybook.com/app/pipeline",
+  "pageTitle": "HoneyBook: Projects",
+  "extractedAt": "2026-02-17T22:54:30.722Z",
+  "items": [
+    {
+      "text": "Projects",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 lgftDE"
+    },
+    {
+      "text": "Projects",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Projects",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Contacts",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Contacts",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Contacts",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Calendar",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Calendar",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Calendar",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Lead capture",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Lead capture",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Lead capture",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Templates",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Templates",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Templates",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Finance",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Finance",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Finance",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Automations",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Automations",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Automations",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Reports",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Reports",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Reports",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Settings",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Settings",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Settings",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    },
+    {
+      "text": "Resources",
+      "tag": "A",
+      "className": "SideNavMenuItemstyles__StyledMenuItem-sc-79h48g-1 jBXwzq"
+    },
+    {
+      "text": "Resources",
+      "tag": "DIV",
+      "className": "SideNavMenuItemstyles__StyledLabelContainer-sc-79h48g-2 hJDkfl"
+    },
+    {
+      "text": "Resources",
+      "tag": "SPAN",
+      "className": "SideNavMenuItemstyles__StyledLabel-sc-79h48g-3 gPMufG"
+    }
+  ],
+  "rawText": "pin\nHome\nProjects\nContacts\nCalendar\nLead capture\nFiles\nTemplates\nFinance\nTools\nAutomations\nReports\nSettings\nResources"
+}

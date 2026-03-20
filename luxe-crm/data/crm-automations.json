@@ -1,0 +1,58 @@
+[
+  {
+    "id": "wpWdzQUnuUyL7ZOw",
+    "name": "Contract Signed & Onboarding",
+    "active": false,
+    "trigger": "",
+    "createdAt": ""
+  },
+  {
+    "id": "wpWdzQUnuUyL7ZOw",
+    "name": "Contract Signed & Onboarding",
+    "active": false,
+    "trigger": "",
+    "createdAt": ""
+  },
+  {
+    "id": "fMQkwSozb1xIAoDs",
+    "name": "Event Completed: Review Request",
+    "active": false,
+    "trigger": "",
+    "createdAt": ""
+  },
+  {
+    "id": "IHBnlIqv21TT50lX",
+    "name": "Lead Inquiry Response",
+    "active": true,
+    "trigger": "",
+    "createdAt": ""
+  },
+  {
+    "id": "ml9qx4ZS9g2A6dIb",
+    "name": "Payment Received: Event Prep",
+    "active": false,
+    "trigger": "",
+    "createdAt": ""
+  },
+  {
+    "id": "uEJSUSqlzTCAulQu",
+    "name": "Proposal / Contract Follow-Up",
+    "active": false,
+    "trigger": "",
+    "createdAt": ""
+  },
+  {
+    "id": "phoznmvJd3pOpyCr",
+    "name": "Wedding Inquiry Catalog & Confirmation",
+    "active": true,
+    "trigger": "",
+    "createdAt": ""
+  },
+  {
+    "id": "GjCuH0klxuyaIR3u",
+    "name": "Wedding Project Planning Prep",
+    "active": true,
+    "trigger": "",
+    "createdAt": ""
+  }
+]

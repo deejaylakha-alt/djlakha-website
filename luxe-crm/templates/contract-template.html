@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #D4AF37;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #000;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .label {
+            font-weight: bold;
+            width: 150px;
+        }
+
+        .value {
+            flex: 1;
+        }
+
+        .terms {
+            font-size: 12px;
+            text-align: justify;
+        }
+
+        .signature-box {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .sign-block {
+            width: 45%;
+            border-top: 1px solid #333;
+            padding-top: 10px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 10px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .highlight {
+            color: #D4AF37;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">DJ LAKHA</div>
+        <div class="title">Event Services Agreement</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Client Details</div>
+        <div class="row"><span class="label">Client Name:</span> <span class="value">{{CLIENT_NAME}}</span></div>
+        <div class="row"><span class="label">Email:</span> <span class="value">{{CLIENT_EMAIL}}</span></div>
+        <div class="row"><span class="label">Phone:</span> <span class="value">{{CLIENT_PHONE}}</span></div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Event Details</div>
+        <div class="row"><span class="label">Event Date:</span> <span class="value">{{EVENT_DATE}}</span></div>
+        <div class="row"><span class="label">Venue:</span> <span class="value">{{EVENT_VENUE}}</span></div>
+        <div class="row"><span class="label">Package:</span> <span class="value">{{PACKAGE_NAME}}</span></div>
+        <div class="row"><span class="label">Total Fee:</span> <span class="value highlight">{{TOTAL_FEE}}</span></div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Terms & Conditions</div>
+        <div class="terms">
+            <p><strong>1. Payment:</strong> A non-refundable retainer of 50% is required to secure the date. The
+                remaining balance is due 14 days prior to the event.</p>
+            <p><strong>2. Cancellation:</strong> Cancellations made more than 90 days before the event will receive a
+                refund of any payments made, minus the non-refundable retainer.</p>
+            <p><strong>3. Performance:</strong> DJ LAKHA agrees to provide entertainment services for the hours
+                specified. Overtime will be billed at $300/hour.</p>
+            <p><strong>4. Liability:</strong> The Client is responsible for any damage to equipment caused by guests.
+            </p>
+            <p><strong>5. Meals:</strong> The Client agrees to provide a meal for the DJ and distinct staff during the
+                reception.</p>
+        </div>
+    </div>
+
+    <div class="signature-box">
+        <div class="sign-block">
+            <p>Client Signature</p>
+            <p style="font-family: 'Brush Script MT', cursive; font-size: 24px; color: #000;">{{CLIENT_SIGNATURE}}</p>
+            <p>Date: {{SignedDate}}</p>
+        </div>
+        <div class="sign-block">
+            <p>DJ LAKHA Signature</p>
+            <p style="font-family: 'Brush Script MT', cursive; font-size: 24px; color: #000;">Lakha Singh</p>
+            <p>Date: {{SignedDate}}</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        DJ LAKHA | Luxury Entertainment | www.djlakha.com
+    </div>
+
+</body>
+
+</html>
