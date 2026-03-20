@@ -792,6 +792,55 @@ img { display: block; max-width: 100%; }
 }
 
 /* ========================================
+   STICKY MOBILE CTA
+   ======================================== */
+.mobile-sticky-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 998;
+  padding: 0.75rem 1.5rem;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(197, 160, 89, 0.2);
+}
+
+.mobile-sticky-cta a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.9rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  background: var(--gold);
+  color: var(--black);
+  transition: var(--transition);
+}
+
+.mobile-sticky-cta a:hover {
+  background: var(--gold-light);
+}
+
+@media (max-width: 968px) {
+  .mobile-sticky-cta { display: block; }
+  body { padding-bottom: 60px; } /* prevent content from hiding behind the bar */
+}
+
+/* ========================================
+   SOUNDCLOUD DARK THEME OVERRIDE
+   ======================================== */
+.soundcloud-container {
+  background: var(--black) !important;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5) !important;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ========================================
    MOBILE NAV OVERLAY
    ======================================== */
 .mobile-nav-overlay {

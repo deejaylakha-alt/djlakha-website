@@ -33,7 +33,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@0.344.0"></script>
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
@@ -242,7 +242,7 @@
         <div class="page-hero-content">
             <p class="page-hero-eyebrow">Booking</p>
             <h1 class="page-hero-title">Start Your<br>Inquiry</h1>
-            <p class="page-hero-sub">Dates for 2025 &amp; 2026 are filling up quickly.</p>
+            <p class="page-hero-sub">Dates for 2026 &amp; 2027 are filling up quickly.</p>
         </div>
     </header>
 
@@ -325,32 +325,14 @@
                             const data = Object.fromEntries(formData);
                             data.source = 'Website Inquiry';
 
-                            try {
-                                // Send to Local CRM
-                                const response = await fetch('http://localhost:3000/api/inquiry', {
-                                    method: 'POST',
-                                    headers: { 'Content-Type': 'application/json' },
-                                    body: JSON.stringify(data)
-                                });
+                            // Build and open mailto with form data
+                            const subject = `New Inquiry: ${data.name} - ${data.date}`;
+                            const body = `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nDate: ${data.date}\nVenue: ${data.venue}\nMessage: ${data.message}`;
+                            window.location.href = `mailto:info@djlakha.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-                                if (response.ok) {
-                                    document.getElementById('inquiryForm').innerHTML = '<div style="padding:4rem 0;text-align:center;"><h3 style="font-size:2rem;font-weight:800;text-transform:uppercase;color:var(--text-on-light);margin-bottom:1rem;">Received.</h3><p style="color:var(--text-muted-light);line-height:1.6;">Thank you for your inquiry. DJ Lakha will review your details and be in touch within 24 hours.</p></div>';
-                                } else {
-                                    throw new Error('CRM connection failed');
-                                }
-                            } catch (err) {
-                                console.error(err);
-                                status.innerText = 'Unable to connect to CRM. Opening your email client...';
-
-                                // Fallback: Mailto
-                                const subject = `New Inquiry: ${data.name} - ${data.date}`;
-                                const body = `Name: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nDate: ${data.date}\nVenue: ${data.venue}\nMessage: ${data.message}`;
-                                window.location.href = `mailto:info@djlakha.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-                                setTimeout(() => {
-                                    btn.innerText = 'Sent via Email';
-                                }, 1000);
-                            }
+                            setTimeout(() => {
+                                document.getElementById('inquiryForm').innerHTML = '<div style="padding:4rem 0;text-align:center;"><h3 style="font-size:2rem;font-weight:800;text-transform:uppercase;color:var(--text-on-light);margin-bottom:1rem;">Received.</h3><p style="color:var(--text-muted-light);line-height:1.6;">Thank you for your inquiry. DJ Lakha will review your details and be in touch within 24 hours.</p></div>';
+                            }, 1000);
                         });
                     </script>
                 </div>
@@ -378,11 +360,8 @@
                 <a href="https://soundcloud.com/dj-lakha" target="_blank" rel="noopener" aria-label="SoundCloud">
                     <i data-lucide="music"></i>
                 </a>
-                <a href="#" aria-label="YouTube">
-                    <i data-lucide="youtube"></i>
-                </a>
             </div>
-            <p class="footer-copy">© 2025 DJ LAKHA. All Rights Reserved.</p>
+            <p class="footer-copy">© 2026 DJ LAKHA. All Rights Reserved.</p>
             <p class="footer-seo">
                 Indian Wedding DJ in Austin · Dallas · Houston · San Antonio · Fort Worth · Texas &amp; Worldwide
             </p>
