@@ -176,6 +176,13 @@ img { display: block; max-width: 100%; }
   animation: subtleZoom 24s ease-in-out infinite alternate;
 }
 
+.hero-bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35; /* Heavily tinted with the #000000 background */
+}
+
 
 .hero-overlay {
   position: absolute;
