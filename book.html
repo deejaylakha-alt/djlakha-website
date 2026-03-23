@@ -297,14 +297,47 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label>Venue / Location</label>
-                            <input type="text" name="venue" placeholder="e.g. The Driskill, Austin TX">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Venue / Location</label>
+                                <input type="text" name="venue" placeholder="e.g. The Driskill, Austin TX">
+                            </div>
+                            <div class="form-group">
+                                <label>Event City / State</label>
+                                <input type="text" name="city" placeholder="e.g. Austin, TX">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Estimated Guest Count</label>
+                                <select name="guests">
+                                    <option value="" disabled selected>Select range</option>
+                                    <option value="Under 75">Under 75</option>
+                                    <option value="75-150">75 – 150</option>
+                                    <option value="150-350">150 – 350</option>
+                                    <option value="350-750">350 – 750</option>
+                                    <option value="750+">750+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>How Did You Hear About Us?</label>
+                                <select name="referral">
+                                    <option value="" disabled selected>Select one</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Google">Google Search</option>
+                                    <option value="WeddingWire">WeddingWire / The Knot</option>
+                                    <option value="Referral">Friend / Family Referral</option>
+                                    <option value="Vendor Referral">Vendor / Planner Referral</option>
+                                    <option value="Saw at Event">Saw Us at an Event</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
                         </div>
 
                         <div class="form-group">
                             <label>Event Type &amp; Details</label>
-                            <textarea name="message" rows="4" placeholder="Tell us about the vibe, estimated guest count, and any specific services you are interested in..."></textarea>
+                            <textarea name="message" rows="4" placeholder="Tell us about the vibe and any specific services you are interested in..."></textarea>
                         </div>
 
                         <button type="submit" class="submit-btn" id="submitBtn">Send Inquiry</button>
