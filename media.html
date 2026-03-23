@@ -154,13 +154,37 @@
                 <div class="portfolio-item reveal-up delay-2">
                     <img src="assets/CKP_Brittany-Jaskaran-Wedding-1199.jpg" alt="Epic dance floor energy with Dhol players" loading="lazy">
                 </div>
-                <div class="portfolio-item reveal-up">
+                <div class="portfolio-item reveal-up hidden-gallery-item" style="display: none;">
                     <img src="assets/CKP_Brittany-Jaskaran-Wedding-993.jpg" alt="Couple entering their reception with DJ Lakha hosting" loading="lazy">
                 </div>
-                <div class="portfolio-item reveal-up delay-1">
+                <div class="portfolio-item reveal-up delay-1 hidden-gallery-item" style="display: none;">
                     <img src="assets/56269F5A-1296-4471-9874-AB16F8FB76D3.JPG" alt="Behind the scenes DJ deck shot" loading="lazy">
                 </div>
             </div>
+
+            <!-- Show More Button -->
+            <div style="text-align: center; margin-top: 3.5rem;" id="showMoreContainer" class="reveal-up delay-1">
+                <button class="btn-primary" id="showMoreBtn" style="cursor: pointer;">Show More</button>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const showMoreBtn = document.getElementById('showMoreBtn');
+                    if (showMoreBtn) {
+                        showMoreBtn.addEventListener('click', () => {
+                            const hiddenItems = document.querySelectorAll('.hidden-gallery-item');
+                            hiddenItems.forEach(item => {
+                                item.style.display = ''; // Remove inline display:none
+                                // Small timeout to allow display change before triggering CSS transition
+                                setTimeout(() => item.classList.add('active'), 50);
+                            });
+                            document.getElementById('showMoreContainer').style.display = 'none';
+                            
+                            // Let Lucide re-render any icons if needed, though not applicable here
+                        });
+                    }
+                });
+            </script>
         </section>
 
         <!-- ══ MIXES SECTION ══ -->
