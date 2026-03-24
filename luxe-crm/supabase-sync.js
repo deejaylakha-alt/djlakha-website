@@ -1,10 +1,8 @@
-import { createClient } from '@supabase/supabase-js';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join, resolve } from 'path';
 
 const SUPABASE_URL = 'https://txalmxodjvgxswifkliv.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR4YWxteG9kanZneHN3aWZrbGl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNjYzMjMsImV4cCI6MjA4OTk0MjMyM30.V4U7tWGVnMkSFEOU3gCMbHPKSoaBpAIyvnWJXRz2bPA';
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const DATA_DIR = resolve(import.meta.dirname, 'data');
 const LOCAL_PROJECTS_FILE = join(DATA_DIR, 'local-projects.json');
@@ -12,13 +10,20 @@ const LOCAL_PROJECTS_FILE = join(DATA_DIR, 'local-projects.json');
 async function syncLeads() {
     console.log('\n🔄 Syncing new inquiries from Supabase Cloud...');
     
-    // Fetch all inquiries from Supabase
-    const { data: cloudInquiries, error } = await supabase
-        .from('inquiries')
-        .select('*')
-        .order('created_at', { ascending: false });
-
-    if (error) {
+    // Fetch all inquiries from Supabase using Native Node Fetch (Zero Dependencies)
+    let cloudInquiries = [];
+    try {
+        const response = await fetch(`${SUPABASE_URL}/rest/v1/inquiries?select=*&order=created_at.desc`, {
+            method: 'GET',
+            headers: {
+                'apikey': SUPABASE_KEY,
+                'Authorization': `Bearer ${SUPABASE_KEY}`
+            }
+        });
+        
+        if (!response.ok) throw new Error(`HTTP ${response.status}: ${await response.text()}`);
+        cloudInquiries = await response.json();
+    } catch (error) {
         console.error('❌ Failed to fetch from Supabase:', error.message);
         return;
     }
