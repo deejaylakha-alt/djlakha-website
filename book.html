@@ -348,8 +348,16 @@
                         <p id="formStatus" style="color: var(--text-muted-light); font-size: 0.75rem; margin-top: 1rem; text-align: center; text-transform: uppercase; letter-spacing: 0.05em;"></p>
                     </form>
 
+                    <!-- Supabase JS Client -->
+                    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+                    
                     <!-- Form Handling Script -->
                     <script>
+                        // Initialize Supabase
+                        const supabaseUrl = 'https://txalmxodjvgxswifkliv.supabase.co';
+                        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR4YWxteG9kanZneHN3aWZrbGl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNjYzMjMsImV4cCI6MjA4OTk0MjMyM30.V4U7tWGVnMkSFEOU3gCMbHPKSoaBpAIyvnWJXRz2bPA';
+                        const supabase = supabaseClient.createClient(supabaseUrl, supabaseKey);
+
                         document.getElementById('inquiryForm').addEventListener('submit', async (e) => {
                             e.preventDefault();
                             const btn = document.getElementById('submitBtn');
@@ -357,28 +365,49 @@
 
                             btn.innerText = 'Sending...';
                             btn.disabled = true;
+                            status.innerText = '';
+                            status.style.color = 'var(--text-muted-light)';
 
                             const formData = new FormData(e.target);
                             const data = Object.fromEntries(formData);
-                            data.source = 'Website Inquiry';
 
-                            // Build and open mailto with form data
-                            const subject = `New Inquiry: ${data.name} - ${data.date}`;
-                            const body = `Name: ${data.name}
-Email: ${data.email}
-Phone: ${data.phone}
-Date: ${data.date}
-Venue: ${data.venue}
-City/State: ${data.city}
-Occasion: ${data.occasion}
-Referral: ${data.referral}
+                            try {
+                                // Insert into Supabase 'inquiries' table
+                                const { error } = await supabase
+                                    .from('inquiries')
+                                    .insert([{
+                                        name: data.name,
+                                        email: data.email,
+                                        phone: data.phone || null,
+                                        date: data.date,
+                                        venue: data.venue || null,
+                                        city: data.city || null,
+                                        occasion: data.occasion || null,
+                                        referral: data.referral || null,
+                                        message: data.message || null
+                                    }]);
 
-Message: ${data.message}`;
-                            window.location.href = `mailto:info@djlakha.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                                if (error) throw error;
 
-                            setTimeout(() => {
-                                document.getElementById('inquiryForm').innerHTML = '<div style="padding:4rem 0;text-align:center;"><h3 style="font-size:2rem;font-weight:800;text-transform:uppercase;color:var(--text-on-light);margin-bottom:1rem;">Received.</h3><p style="color:var(--text-muted-light);line-height:1.6;">Thank you for your inquiry. DJ Lakha will review your details and be in touch within 24 hours.</p></div>';
-                            }, 1000);
+                                // Show ultimate success UI
+                                document.getElementById('inquiryForm').innerHTML = `
+                                    <div style="padding:4rem 0;text-align:center;">
+                                        <div style="width:64px;height:64px;border-radius:50%;background:var(--gold);color:var(--bg-dark);display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;">
+                                            <i data-lucide="check" style="width:32px;height:32px;"></i>
+                                        </div>
+                                        <h3 style="font-size:2rem;font-weight:800;text-transform:uppercase;color:var(--text-on-light);margin-bottom:1rem;">Received.</h3>
+                                        <p style="color:var(--text-muted-light);line-height:1.6;">Thank you for your inquiry. DJ Lakha will review your details and be in touch within 24 hours.</p>
+                                    </div>
+                                `;
+                                lucide.createIcons();
+
+                            } catch (err) {
+                                console.error('Form Error:', err);
+                                btn.innerText = 'Send Inquiry';
+                                btn.disabled = false;
+                                status.innerText = 'There was an error sending your inquiry. Please try again or email us directly.';
+                                status.style.color = '#ff4444';
+                            }
                         });
                     </script>
                 </div>
