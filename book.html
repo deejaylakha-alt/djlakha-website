@@ -356,7 +356,7 @@
                         // Initialize Supabase
                         const supabaseUrl = 'https://txalmxodjvgxswifkliv.supabase.co';
                         const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR4YWxteG9kanZneHN3aWZrbGl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNjYzMjMsImV4cCI6MjA4OTk0MjMyM30.V4U7tWGVnMkSFEOU3gCMbHPKSoaBpAIyvnWJXRz2bPA';
-                        const supabase = supabaseClient.createClient(supabaseUrl, supabaseKey);
+                        const db = supabase.createClient(supabaseUrl, supabaseKey);
 
                         document.getElementById('inquiryForm').addEventListener('submit', async (e) => {
                             e.preventDefault();
@@ -373,7 +373,7 @@
 
                             try {
                                 // Insert into Supabase 'inquiries' table
-                                const { error } = await supabase
+                                const { error } = await db
                                     .from('inquiries')
                                     .insert([{
                                         name: data.name,
